@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 generate_demo_data.py)",
+      "Bash(python3 -m py_compile app.py run_pipeline.py generate_demo_data.py config.py src/*.py)",
+      "Bash(python3 -c ' *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git -c user.name=ansahafful6 -c user.email=aaa6@williams.edu commit -q -m 'CTI predictive exploitation dashboard *)",
+      "Bash(git branch *)",
+      "Bash(git remote *)"
+    ]
+  }
+}
